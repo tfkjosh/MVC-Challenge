@@ -1,6 +1,5 @@
 let blogPost = window.location.pathname.split("/");
 
-// Allows user to edit blog posts from the blogPost page
 const submitEdit = async (event) => {
   event.preventDefault();
   const title = document.getElementById("titleInput").value;
@@ -28,5 +27,5 @@ const submitEdit = async (event) => {
 
 const submitButton = document.getElementById("submitEdit");
 
-// Event Listener
+
 submitButton.addEventListener("submit", submitEdit);
