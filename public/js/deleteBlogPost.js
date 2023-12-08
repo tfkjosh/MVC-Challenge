@@ -1,4 +1,3 @@
-// Function created allowing user to delete blog posts from the individual blog post page
 const deletePostHandler = async (event) => {
     event.preventDefault();
     console.log("clicked me");
@@ -20,7 +19,6 @@ const deletePostHandler = async (event) => {
   
   const deleteButton = document.querySelectorAll("#deleteBtn");
   
-  // Iterates over all buttons on the page allowing for delete functionality
   for (let i = 0; i < deleteButton.length; i++) {
     deleteButton[i].addEventListener("click", deletePostHandler);
   }
