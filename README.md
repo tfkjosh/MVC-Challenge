@@ -68,7 +68,7 @@ Navigate to [MVC Challenge](https://newmvc-challenge-93b6891ffba8.herokuapp.com/
 
 ## Credits
 
-I was successfully able to build this application and have it deployed to the localhost server, however I had multiple issues with deploying aapllication to heroku. With the help of tutors and classmates I was able to attack the back-end Module 14 Challenge.
+I was successfully able to build this application and have it deployed to the localhost server, however I had multiple issues with deploying aapllication to heroku and creating handlebars. With the help of tutors and classmates I was able to attack the back-end Module 14 Challenge.
 
 ##License
 
