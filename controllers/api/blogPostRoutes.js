@@ -3,7 +3,6 @@ const router = require("express").Router();
 const { BlogPost } = require("../../models");
 const withAuth = require("../../utils/auth");
 
-// Route to create a new blog post
 router.post("/", withAuth, async (req, res) => {
   console.log(req.body);
   try {
@@ -19,7 +18,6 @@ router.post("/", withAuth, async (req, res) => {
   }
 });
 
-// Route to edit an existing blog post
 router.put("/:id", withAuth, async (req, res) => {
   console.log(req.body);
   try {
@@ -40,7 +38,6 @@ router.put("/:id", withAuth, async (req, res) => {
   }
 });
 
-// Route to delete an existing blog post
 router.delete("/:id", withAuth, async (req, res) => {
   console.log(req.params.id);
   try {
